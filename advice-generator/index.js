@@ -37,3 +37,7 @@ function getQuote(){
 }
 
 getQuote();
+
+if (screen.width < 768) {
+    document.querySelector("body").innerHTML = "<h1 style={color: white;}> Please switch to your Laptop or PC. This site is compatible with wider screens.</h1>";
+}
