@@ -65,3 +65,7 @@ document.getElementById('search-btn').addEventListener('click', () => {
 document.getElementById("play-btn").addEventListener('click', () => {
     document.getElementById("map").style.zIndex = 0;
 })
+
+if (screen.width < 768) {
+    document.querySelector('body').innerHTML = "<h1 style='margin:2rem;'> Please switch to your Laptop/Desktop. This site is compatible with wider screen.</h1>";   
+}
