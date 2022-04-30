@@ -1,0 +1,388 @@
+
+/* Due to difference in the font used some of the elements have slightly changed width than the Figma design provided */
+
+* {
+    margin: 0;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    width: 1440px;
+    height:104px;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* Secondary Div */
+
+    background: #33A0D9;
+}
+
+nav img {
+    /* Asset 1_1 1 */
+
+    position: absolute;
+    left: 6.94%;
+    right: 80.21%;
+    top: 20.19%;
+    bottom: 12.5%;
+}
+
+#link1 {
+    /* Join a Race */
+
+    position: absolute;
+    left: 54.1%;
+    right: 34.51%;
+    top: 34.62%;
+    bottom: 34.62%;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+
+    /* Button */
+
+    color: #000000;
+}
+
+#link2 {
+    /* Leaderboard */
+
+
+    position: absolute;
+    left: 70.76%;
+    right: 18.12%;
+    top: 34.62%;
+    bottom: 34.62%;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+    text-align: center;
+
+    /* Button */
+
+    color: #000000;
+}
+
+#login-btn {
+    position: absolute;
+    left: 87.15%;
+    right: 2.85%;
+    top: 24.04%;
+    bottom: 24.04%;
+
+    background: #FFFFFF;
+    border:0;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+main {
+    height: 913px;
+    width:1440px;
+    background-image: url(assets/Back\ drop\ 1.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #F2F2F2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Prompt', sans-serif;
+}
+
+#main-heading {
+    position: absolute;
+    top: 183px;
+    left: 483px;
+
+    font-family: 'Poppins';
+    
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 120%;
+}
+
+#head1 {
+    position: absolute;
+    top: 271px;
+    left: 483px;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.205em;
+}
+
+#pass {
+    position: absolute;
+    top: 321px;
+    left: 483px;
+    height:45px;
+    width: 417px;
+    background: #F2F2F2;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 40px;
+}
+
+#passneed {
+    position: absolute;
+    top:377px;
+    left:490px;
+    color:#EB5757;
+    visibility: hidden;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Prompt', sans-serif;
+}
+
+#head2 {
+    position: absolute;
+    top: 424px;
+    left: 483px;
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 0.205em;
+}
+
+#confirm-pass {
+    position: absolute;
+    top: 474px;
+    left: 483px;
+    height:45px;
+    width: 417px;
+    background: #F2F2F2;
+    border: 3px solid #000000;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 40px;
+}
+
+
+#notMatch {
+    position: absolute;
+    top:530px;
+    left:490px;
+    color:#EB5757;
+    visibility: hidden;
+    font-style: italic;
+    font-weight: 700;
+    font-family: 'Prompt', sans-serif;
+}
+
+#resetDone {
+    position: absolute;
+    width: 600px;
+    height: 72px;
+    left: 500px;
+    top: 264px;
+
+    /* P - Paragraph + Secondary Button */
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    /* or 36px */
+
+}
+
+#join-btn {
+    font-family: 'Prompt', sans-serif;
+    position: absolute;
+    top:381px;
+    left:500px;
+    width: 492px;
+    height: 68px;
+    color:white;
+    font-size: 24px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+#reset-btn {
+    position: absolute;
+    top: 599px;
+    left: 483px;
+    height:68px;
+    width:441px;
+    color:white;
+    font-size: 24px;
+    background: #000000;
+    border-radius: 10px;
+}
+
+footer {
+    height: 138px;
+    width:1440px;
+    /* Rectangle 8 */
+
+    position: relative;
+    left: 0%;
+    right: 0%;
+    top: 88.05%;
+    bottom: 0%;
+
+    /* Footer Color */
+
+    background: #2180B3;
+
+    font-family: 'Prompt', sans-serif;
+}
+
+#links {
+    height: 56px;
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    
+    position: absolute;
+    left: 15.8%;
+    right: 33.78%;
+    top: 41px;
+    bottom: 41px;
+}
+
+#about {
+    position: static;
+    width: fit-content;
+    height: 36px;
+    left: 10px;
+    top: 10px;
+    margin: 10px;
+    margin-right: 49px;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+
+    /* Secondary Button */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+#policy {
+    position: static;
+    width: fit-content;
+    height: 36px;
+    left: 167px;
+    top: 10px;
+    margin: 10px;
+    margin-right: 49px;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+
+    /* Secondary Button */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+#tutorials {
+    position: static;
+    width: fit-content;
+    height: 36px;
+    left: 376px;
+    top: 10px;
+    margin: 10px;
+    margin-right: 49px;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+
+    /* Secondary Button */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+#tos {
+    position: static;
+    width: fit-content;
+    height: 36px;
+    left: 525px;
+    top: 10px;
+    margin: 10px;
+    margin-right: 49px;
+
+    font-family: 'Prompt', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    /* identical to box height, or 36px */
+
+
+    /* Secondary Button */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
