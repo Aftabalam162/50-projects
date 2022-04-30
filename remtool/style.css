@@ -1,0 +1,39 @@
+div{
+  background-color: lightblue;
+  height:100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#th {
+  border-radius: 5px;
+  height: 20px;
+}
+
+#tw {
+  border-radius: 5px;
+  height: 20px;
+}
+
+#height {
+  border-radius: 5px;
+  height: 20px;
+}
+#width {
+  border-radius: 5px;
+  height: 20px;
+}
+
+.button {
+font-size: 13px;
+border-radius: 5px;
+ color: grey;
+  border: 1px solid grey;
+}
+
+.button:active {
+transform: scale(0.98);
+}
