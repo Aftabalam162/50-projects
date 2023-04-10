@@ -1,5 +1,6 @@
 from django.db import models
 
+
 class Student(models.Model):
     class Meta:
         db_table = 'student'

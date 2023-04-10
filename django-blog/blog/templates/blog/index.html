@@ -9,12 +9,13 @@
 <body>
     Hello boys, how is it going huh?
 
-    <ul>
+    <ul> {% if students %}
         {% for student in students %}
         <li>
             {{student.name}} - {{student.age}} - {{student.marks}}
         </li>
         {% endfor %}
+        {% endif %}
     </ul>
 </body>
 </html>
