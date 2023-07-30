@@ -1,12 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Page</title>
-</head>
-<body>
+{% extends "blog/layout.html" %}
+
+    {% block main %}
+
+
     Hello boys, how is it going huh?
 
     <ul> {% if students %}
@@ -15,7 +11,13 @@
             {{student.name}} - {{student.age}} - {{student.marks}}
         </li>
         {% endfor %}
+        
         {% endif %}
     </ul>
-</body>
-</html>
+
+    {% if user.is_authenticated %}
+            <h3>You are logged in! {{ user }}</h3>
+            <a href="{% url 'logout' %}">Click here</a> to log out...
+    {% endif %}
+
+    {% endblock%}

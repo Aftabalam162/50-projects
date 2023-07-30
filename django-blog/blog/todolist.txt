@@ -1,0 +1,22 @@
+Since it is a blog, so we have three types of visitors to our website
+
+1. Users 2. Bloggers and 3. Admin
+
+For admin we have the admin panel and an account with unrestricted access to DB
+
+todo : For bloggers we have to create an account with restricted access to DB
+
+Readers/Users don't need it since they will just read the articles
+
+CRUD app means in the context of the blog I am creating:
+
+1. bloggers can write articles
+2. users can read those articles
+3. bloggers and admin can modify/moderate those articles
+4. bloggers and admin can delete those articles
+
+tables to have in the database for these things: 
+
+1. blogs - title, content, authorID(FK), date
+2. authors - name, age, email, authorID(PK)
+
